@@ -1,1 +1,129 @@
 # Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Julia Crudo | AutoCAD Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Julia Crudo</h1>
+  <p>AutoCAD Operator & 3D Modeler | Helping You Visualize Your Dream Space</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Hi! I’m Julia. I create technical drawings and 3D models for residential projects. I love helping people turn their dream homes into real plans. With my experience in AutoCAD and 3ds Max, I can transform your sketches into clean, professional blueprints.</p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <ul>
+    <li>Microcad Institute – Cubao (2018–2019)</li>
+    <li>Lyceum of the Philippines University (2016–2018)</li>
+    <li>Silang Central Elementary School (2012–2016)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Experience</h2>
+  <ul>
+    <li>Blueprint Express – Robinson Dasmariñas (2020–2021)  
+      <br/>CAD Operator / Sales Consultant</li>
+  </ul>
+  <p><strong>Certifications:</strong> Technical Drafting NCII</p>
+</section>
+
+<section>
+  <h2>What I Do</h2>
+  <ul>
+    <li>Redraw plans from hand sketches or scans</li>
+    <li>Create full architectural layouts in AutoCAD</li>
+    <li>Build 3D models for home designs</li>
+    <li>Help visualize renovation ideas</li>
+  </ul>
+</section>
+
+<section>
+  <h2>My Work</h2>
+  <div class="grid">
+    <div class="card">
+      <p><strong>Sketch to CAD</strong></p>
+      <p>Client sketch → AutoCAD layout (2 hours)</p>
+    </div>
+    <div class="card">
+      <p><strong>3D Modeling</strong></p>
+      <p>Created in 3ds Max (2-day turnaround)</p>
+    </div>
+    <div class="card">
+      <p><strong>Blueprints & Whiteprints</strong></p>
+      <p>Clean technical drawings prepared for print</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:juliacrudooo@gmail.com">juliacrudooo@gmail.com</a></p>
+  <p>Phone: +63 999 819 7966</p>
+  <p>Portfolio links:</p>
+  <ul>
+    <li><a href="http://bit.ly/2Tynxth" target="_blank">Sample Work 1</a></li>
+    <li><a href="http://bit.ly/2TyoMsr" target="_blank">Sample Work 2</a></li>
+    <li><a href="http://bit.ly/2TtBDfr" target="_blank">Sample Work 3</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Julia Crudo. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
